@@ -1,0 +1,35 @@
+body{
+    
+}
+.header1 h3{
+    color: rgb(219, 128, 8);
+    
+}
+.header1{
+    width: 100%;
+    background-color: rgb(237, 231, 231);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.button-container{
+    padding: 3px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.buttons .btn-1{
+    background-color: rgb(245, 186, 109);
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 14px;
+}
+.btn-1:hover{
+    cursor: pointer;
+}
+.container{
+    background-color: antiquewhite;
+}
