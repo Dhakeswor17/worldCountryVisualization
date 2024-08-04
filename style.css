@@ -1,35 +1,75 @@
-body{
-    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-.header1 h3{
+
+.header1 h3 {
     color: rgb(219, 128, 8);
-    
 }
-.header1{
+
+.header1 {
     width: 100%;
-    background-color: rgb(237, 231, 231);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-.button-container{
-    padding: 3px;
+    background-color: rgb(240, 237, 232);
     display: flex;
-    
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.buttons .btn-1{
+
+.button-container {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons .btn-1 {
     background-color: rgb(245, 186, 109);
     height: 30px;
     border-radius: 5px;
     margin: 10px;
     font-size: 14px;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     cursor: pointer;
 }
-.container{
-    background-color: antiquewhite;
+
+.container {
+    background-color: rgb(240, 237, 232);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.countriesList {
+    margin: 6px 4px;
+    padding: 8px;
+    background-color: rgb(225, 214, 246);
+    color: black;
+    font-size: 17px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.countryName {
+    flex: 1;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.nastedClass {
+    height: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
 }
